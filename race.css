@@ -34,6 +34,18 @@ body {
     background-size: contain;
 }
 
+.fourRoad {
+    position: fixed;
+    left: 25%;
+    right: 0;
+    bottom: 64%;
+    height: 140px;
+    width: 1100px;
+    /*background-color: rgb(99, 89, 89);*/
+    background-image: url(https://static8.depositphotos.com/1140262/960/i/600/depositphotos_9604431-stock-photo-seamless-asphalt-texture.jpg);
+    background-size: contain; 
+}
+
 .intersection {
     position: fixed;
     height: 140px;
@@ -62,4 +74,49 @@ body {
     top: 20%;
     background-image: url(https://www.wildtextures.com/wp-content/uploads/wildtextures_seamless-asphalt1-480x343.jpg);
     background-size: contain; 
+}
+
+.intersectionFour {
+    position: fixed;
+    height: 140px;
+    width: 140px;
+    left: 20%;
+    top: 20%;
+    background-image: url(https://www.wildtextures.com/wp-content/uploads/wildtextures_seamless-asphalt1-480x343.jpg);
+    background-size: contain;
+}
+
+.treeOne {
+    position:fixed;
+    height: 200px;
+    width: 200px;
+    left: 88%;
+    /*background-color: black;*/
+    background-image: url(tree1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.treeTwo {
+    position:fixed;
+    height: 200px;
+    width: 200px;
+    left: 88%;
+    bottom: 55%;
+    /*background-color: black;*/
+    background-image: url(tree1.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.treeThree {
+    position:fixed;
+    height: 200px;
+    width: 200px;
+    left: 88%;
+    bottom: 35%;
+    /*background-color: black;*/
+    background-image: url(tree1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
