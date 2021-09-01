@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(48, 155, 27);
+}
+
+.oneRoad {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 15.5%;
+    height: 140px;
+    width: 1800px;
+    /*background-color: rgb(99, 89, 89);*/
+    background-image: url(https://static8.depositphotos.com/1140262/960/i/600/depositphotos_9604431-stock-photo-seamless-asphalt-texture.jpg);
+    background-size: contain;   
+}
+
+.twoRoad {
+    position: fixed;
+    left: 20%;
+    height: 1200px;
+    width: 140px;
+    /*background-color: rgb(99, 89, 89);*/  
+    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/Seamless-Black-Asphalt-Road-Texture.jpg);
+    background-size: contain;
+}
+
+.threeRoad {
+    position: fixed;
+    left: 80%;
+    height: 700px;
+    width: 140px;
+    /*background-color:rgb(99, 89, 89);*/
+    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/Seamless-Black-Asphalt-Road-Texture.jpg);
+    background-size: contain;
+}
+
+.intersection {
+    position: fixed;
+    height: 140px;
+    width: 140px;
+    left: 20%;
+    bottom: 16%;
+    background-image: url(https://www.wildtextures.com/wp-content/uploads/wildtextures_seamless-asphalt1-480x343.jpg);
+    background-size: contain;
+}
+
+.intersectionOne {
+    position: fixed;
+    height: 140px;
+    width: 140px;
+    left: 80%;
+    bottom: 16%;
+    background-image: url(https://www.wildtextures.com/wp-content/uploads/wildtextures_seamless-asphalt1-480x343.jpg);
+    background-size: contain; 
+}
+
+.intersectionThree {
+    position: fixed;
+    height: 140px;
+    width: 140px;
+    left: 80%;
+    top: 20%;
+    background-image: url(https://www.wildtextures.com/wp-content/uploads/wildtextures_seamless-asphalt1-480x343.jpg);
+    background-size: contain; 
+}
