@@ -92,7 +92,7 @@ body {
     width: 200px;
     left: 88%;
     /*background-color: black;*/
-    background-image: url(tree1.jpg);
+    background-image: url(jpg/tree1.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -104,7 +104,7 @@ body {
     left: 88%;
     bottom: 55%;
     /*background-color: black;*/
-    background-image: url(tree1.jpg);
+    background-image: url(jpg/tree1.jpg);
     background-position: center;
     background-repeat: no-repeat; 
 }
@@ -116,7 +116,61 @@ body {
     left: 88%;
     bottom: 35%;
     /*background-color: black;*/
-    background-image: url(tree1.jpg);
+    background-image: url(jpg/tree1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.homeOne {
+    position: fixed;
+    height: 285px;
+    width: 380px;
+    left: 28%;
+    bottom: 31%;
+    background-color: blue;
+    background-image: url(jpg/home1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top:solid 3px brown ;
+    border-left:solid 3px brown ;
+    border-right:solid 3px brown ;
+}
+
+.homeTwo {
+    position: fixed;
+    height: 285px;
+    width: 380px;
+    left: 58%;
+    bottom: 31%;
+    background-color: blue;
+    background-image: url(jpg/home1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top:solid 3px #5e3434 ;
+    border-left:solid 3px rgb(105, 50, 50) ;
+    border-right:solid 3px rgb(117, 45, 45) ;
+}
+
+.bushOne {
+    position: fixed;
+    height: 120px;
+    width: 120px;
+    left: 51%;
+    bottom: 50%;
+    background-color: chartreuse;
+    background-image: url(jpg/bush.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bushTwo {
+    position: fixed;
+    height: 120px;
+    width: 120px;
+    left: 51%;
+    bottom: 35%;
+    background-color: chartreuse;
+    background-image: url(jpg/bush.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
