@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: rgb(48, 155, 27);
 }
@@ -174,3 +179,108 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.homeThree {
+    position: fixed;
+    height: 450px;
+    width: 285px;
+    left: 3.5%;
+    bottom: 43%;
+    /*background-color: blue;*/
+    background-image: url(jpg/home2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top:solid 5px rgb(170, 111, 111);
+    border-left:solid 5px rgb(170, 111, 111);
+    border-bottom:solid 5px rgb(170, 111, 111);
+}
+
+.car {
+    position: fixed;
+    height: 50px;
+    width: 100px;
+    left: 100%;
+    bottom: 17.2%;
+    background-color: black;
+    background-image: url(jpg/car3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: carOne 30s linear;
+}
+
+.carTwo {
+    position: fixed;
+    height: 50px;
+    width: 100px;
+    left: 100%;
+    bottom: 24.2%;
+    background-color: black;
+    background-image: url(jpg/car4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: carTwo 25s linear;
+}
+
+.carThree {
+    position: fixed;
+    height: 100px;
+    width: 50px;
+    left: 24.5%;
+    bottom: -20%;
+    background-color: black;
+    background-image: url(jpg/car1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carFour {
+    position: fixed;
+    height: 100px;
+    width: 50px;
+    left: 20.5%;
+    bottom: 100%;
+    background-color: black;
+    background-image: url(jpg/carr2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@keyframes carOne {
+    0% {
+        left: -10%;
+    }
+    30% {
+        left: 10%;
+    }
+    33% {
+        left: 10%;
+    }
+    70% {
+        left: 70%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes carTwo {
+    0% {
+        left: 100%;
+    }
+    10% {
+        left: 93%; 
+    }
+    20% {
+        left: 93%;
+    }
+    70% {
+        left: 35%;
+    }
+    75% {
+        left: 35%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
